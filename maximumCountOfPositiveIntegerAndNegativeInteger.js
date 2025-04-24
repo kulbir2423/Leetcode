@@ -1,6 +1,6 @@
-let nums = [-2, -1, -1, 1, 2, 3];
+var nums1 = [-2, -1, -1, 1, 2, 3];
 // here are 3 positive integers and 3 negative integers. The maximum count among them is 3.
-var maximumCount = function (nums) {
+var maximumCount = function (nums1) {
   let countPos = 0;
   let countNeg = 0;
   let i = 0;
@@ -13,6 +13,8 @@ var maximumCount = function (nums) {
       i++;
     } else i++;
   }
+  console.log(Math.max(countPos, countNeg));
   return Math.max(countPos, countNeg);
+  
 };
-maximumCount(nums);
+maximumCount(nums1);
