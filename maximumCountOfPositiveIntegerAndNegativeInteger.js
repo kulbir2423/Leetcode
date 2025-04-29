@@ -13,7 +13,6 @@ var maximumCount = function (nums1) {
       i++;
     } else i++;
   }
-  console.log(Math.max(countPos, countNeg));
   return Math.max(countPos, countNeg);
   
 };
